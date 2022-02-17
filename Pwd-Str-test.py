@@ -23,8 +23,8 @@ while (answer != userPass):
     for letter in range (len(userPass)):
         guessLetter = password[randint(0,61)]
         answer = str(guessLetter) + str(answer)
-# To show the combinations of passwords used against the program remove the # below
-    print(count, "Attempts:", answer)
+    # To show the combinations of passwords used against the program remove the # below
+    #print(count, "Attempts:", answer)
 
 
 
